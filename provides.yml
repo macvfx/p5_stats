@@ -1,0 +1,25 @@
+client_tabs:
+    p5_stats:
+        view: p5_stats_tab
+        i18n: p5_stats.title
+listings:
+    p5_stats:
+        view: p5_stats_listing
+        i18n: p5_stats.listing.title
+reports:
+    p5_stats:
+        view: p5_stats_report
+        i18n: p5_stats.report.title
+widgets:
+    p5_stats_host_id:
+        view: p5_stats_host_id_widget
+    p5_stats_port:
+        view: p5_stats_port_widget
+    p5_stats_platform:
+        view: p5_stats_platform_widget
+    p5_stats_version:
+        view: p5_stats_version_widget
+    p5_stats_uptime:
+        view: p5_stats_uptime_widget
+    p5_stats_licenses:
+        view: p5_stats_licenses_widget

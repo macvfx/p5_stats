@@ -1,0 +1,8 @@
+type: scrollbox
+widget_id: p5_stats-licenses-scrollbox-widget
+api_url: /module/p5_stats/get_list/licenses
+i18n_title: p5_stats.widget.licenses_title
+icon: fa-laptop
+listing_link: /show/listing/p5_stats/p5_stats
+search_key: label
+badge: count

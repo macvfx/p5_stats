@@ -1,0 +1,7 @@
+row1:
+    p5_stats_host_id: {  }
+    p5_stats_port: {  }
+    p5_stats_platform: {  }
+    p5_stats_version: {  }
+    p5_stats_uptime: {  }
+    p5_stats_licenses: {  }

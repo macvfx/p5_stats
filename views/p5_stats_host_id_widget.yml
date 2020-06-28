@@ -1,0 +1,8 @@
+type: scrollbox
+widget_id: p5_stats-host_id-scrollbox-widget
+api_url: /module/p5_stats/get_list/host_id
+i18n_title: p5_stats.widget.host_id_title
+icon: fa-laptop
+listing_link: /show/listing/p5_stats/p5_stats
+search_key: label
+badge: count

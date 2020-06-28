@@ -1,0 +1,25 @@
+{
+    "column": {
+        "host_id": "Host ID",
+        "port": "Port",
+        "platform": "Platform",
+        "version": "Version",
+        "uptime": "Uptime",
+        "licenses": "Licenses"
+    },
+    "listing": {
+        "title": "P5 Stats"
+    },
+    "report": {
+        "title": "P5 Stats"
+    },
+    "title": "P5 Stats",
+    "widget": {
+        "host_id_title": "Host ID",
+        "port_title": "Port",
+        "platform_title": "Platform",
+        "version_title": "Version",
+        "uptime_title": "Uptime",
+        "licenses_title": "Licenses"
+    }
+}

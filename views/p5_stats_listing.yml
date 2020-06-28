@@ -1,0 +1,20 @@
+i18n_title: p5_stats.listing.title
+table:
+    -   column: machine.computer_name
+        i18n_header: listing.computername
+        formatter: clientDetail
+        tab_link: p5_stats
+    -   column: reportdata.serial_number
+        i18n_header: serial
+    -   column: p5_stats.host_id
+        i18n_header: p5_stats.column.host_id
+    -   column: p5_stats.port
+        i18n_header: p5_stats.column.port
+    -   column: p5_stats.platform
+        i18n_header: p5_stats.column.platform
+    -   column: p5_stats.version
+        i18n_header: p5_stats.column.version
+    -   column: p5_stats.uptime
+        i18n_header: p5_stats.column.uptime
+    -   column: p5_stats.licenses
+        i18n_header: p5_stats.column.licenses
