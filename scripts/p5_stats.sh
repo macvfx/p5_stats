@@ -15,7 +15,7 @@ PORT=$(/usr/local/aw/bin/nsdchat -c srvinfo port)
 PLATFORM=$(/usr/local/aw/bin/nsdchat -c srvinfo platform)
 VERSION=$(/usr/local/aw/bin/nsdchat -c srvinfo lexxvers)
 UPTIME=$(/usr/local/aw/bin/nsdchat -c srvinfo uptime)
-LICENSES=$(/usr/local/aw/bin/nsdchat -c License resources)
+LICENSES=$(/usr/local/aw/bin/nsdchat -c License Client free)
 
 # Output data here
 echo "host_id${SEPARATOR}${HOST_ID}" > ${OUTPUT_FILE}
