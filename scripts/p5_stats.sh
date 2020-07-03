@@ -17,10 +17,13 @@ VERSION=$(/usr/local/aw/bin/nsdchat -c srvinfo lexxvers)
 UPTIME=$(/usr/local/aw/bin/nsdchat -c srvinfo uptime)
 LICENSES=$(/usr/local/aw/bin/nsdchat -c License Client free)
 
+#do math
+UPTIME=$((UPTIME/=3600))
+
 # Output data here
 echo "host_id${SEPARATOR}${HOST_ID}" > ${OUTPUT_FILE}
 echo "port${SEPARATOR}${PORT}" >> ${OUTPUT_FILE}
 echo "platform${SEPARATOR}${PLATFORM}" >> ${OUTPUT_FILE}
 echo "version${SEPARATOR}${VERSION}" >> ${OUTPUT_FILE}
-echo "uptime${SEPARATOR}${UPTIME}" >> ${OUTPUT_FILE}
+echo "uptime${SEPARATOR}${UPTIME} hours" >> ${OUTPUT_FILE}
 echo "licenses${SEPARATOR}${LICENSES}" >> ${OUTPUT_FILE}
