@@ -1,4 +1,4 @@
-# mdatp
+# P5 Stats
 
 A module for MunkiReport-PHP [https://github.com/munkireport/munkireport-php]
 
